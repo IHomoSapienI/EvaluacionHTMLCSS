@@ -1,0 +1,649 @@
+
+
+body {
+    margin: 0;
+    background-image: url(Videojuegos-Ilustracion-PlayStation-Logo.jpg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logoimg {
+    height: 200px;
+
+}
+
+.sticky-menu {
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    z-index: 1000;
+    top: auto;
+    box-shadow: 2dvw 20px 10px rgba(235, 233, 233, 0.1);
+}
+
+.sticky-menu h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.sticky-menu h1:hover {
+    color:#1e59c8;
+}
+
+.menu ul li a:hover {
+
+    color: #1e59c8;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sticky-menu nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+.sticky-menu nav ul li a:hover {
+    color: #1e59c8; 
+}
+
+
+.menu-container {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 5px; 
+    text-align: right;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 100px;
+    margin-left: 20px;
+    
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contenedor-section {
+
+
+
+    filter: blur(0px);
+    display: flex;
+    justify-content: space-between;
+    /* esto separa los contenedores */
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    
+}
+
+.cuadro-article {
+
+    border-radius: 15px;
+   
+    
+    flex: 0 0 30%;
+    
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    }
+
+    .mi-articulo time {
+        display: block; 
+        margin-top: 10px; 
+        text-align: center;
+    }
+
+    .contenedor-imagen img {
+        display: block; 
+        margin: 0 auto; 
+        max-width: 100%; 
+    }
+
+
+.mi-articulo {
+    text-align: center;
+    overflow: hidden;
+    width: 700px;
+    color: white;
+    background-color: #333;
+    
+    
+}
+
+
+
+.mi-aside {
+    border-radius: 15px;
+    flex: 0 0 48%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 20px;
+    
+    flex: 0 0 200px; 
+    margin-left: 20px;
+    
+    
+    
+}
+.mi-cuadrado {
+
+    max-width: 6000px;
+    max-height: 1000px;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    background-color: #333;
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+   color: white;
+
+}
+
+.mi-cuadrado:hover {
+    background-color: black;
+}
+
+.video {
+    display: flex;
+    width: 300px;
+    height: 500px;
+}
+
+
+
+.contenedor-footer {
+    display: grid;
+
+}
+
+.footer2 {
+
+    width: 100%;
+    height: 80%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+.mi-articulo {
+    transition: background-color 0.3s ease;
+    
+}
+
+.mi-articulo:hover {
+    background-color: black;
+}
+
+.mi-articulo p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.mi-articulo h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.mi-articulo {
+    
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*Foro*/
+
+body {
+    background-image: url(Videojuegos-Ilustracion-PlayStation-Logo.jpg);
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.comentario {
+    background-color: #0056b3;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    display:flex;
+    box-shadow: 5px 6px 10px #ccc;
+    text-align:justify;
+
+    view-timeline: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+
+
+}
+
+.PE {
+    text-shadow: 9px 10px 10px #333 ;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    border-right: 1px solid #353535;
+}
+
+
+
+.comentario:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerC {
+    background-color: #007bff;
+}
+
+.Imagenforo {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*Registrarse*/
+.Div-Registrarse {
+    text-align: center;
+
+}
+
+
+.asideforo {
+    position: absolute; right: 0;
+}
+
+/*Formulario contactos*/
+/* Estilos para el contenedor del formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(19, 19, 19, 0.1);
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #28a745; 
+}
+
+button[type="reset"] {
+    background-color: #dc3545; 
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.form-contactos {
+    background-color: white;
+    color: black;
+    display: block;
+}
+
+.nav-contactos {
+    background-color: #0056b3; 
+    color: black; 
+    padding: 20px; 
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.nav-contactos h1 {
+    margin: 0; 
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.nav-contactos ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.nav-contactos li {
+    display: inline; 
+    margin-left: 20px; 
+}
+
+.nav-contactos li a {
+    text-decoration: none; 
+    color: inherit; 
+    transition: color 0.3s ease; 
+    background-color: white;
+    border-radius: 5px;
+}
+
+.nav-contactos li a:hover {
+    background-color: #333; 
+    box-shadow: #dc3545;
+}
+
+
+
+.Juegosdiv {
+    color: white;
+    border-radius: 10px;
+    border: #ccc solid;
+    font-size: 20px;
+    padding: 15px;
+    margin: 30px;
+    background-color: #0056b3;
+    
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    
+
+    view-timeline: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+
+}
+
+.Juegosdiv p {
+
+    padding: 2rem;
+    margin: auto;
+
+    
+
+
+
+}
+.Juegosdiv img {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2dvw 4px 10px rgba(4, 3, 3, 0.1); 
+   filter: drop-shadow(1rem 0.8rem 0.6rem var(--azulcielo));
+    
+}
+
+.Juegosdiv:hover {
+    transform: scale(1.02);
+}
+
+.Juegosdiv img:hover {
+    transform: scale(1.4);
+}
+
+:root {
+    --negro: #353535;
+    --blanco:white;
+    --azulcielo:Skyblue;
+}
+
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 0%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+
+}
+ 
+
+/*Trofeos*/
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.sectiontrofeos {
+    display: flex;
+    align-content: space-between;
+    position: relative;
+    border: #ccc solid;
+    
+}
+
+
+.trofeosdiv {
+    
+    border-radius: 10px;
+    border: #ccc solid;
+    font-size: 20px;
+    
+    margin: 10px;
+    background-color: #0056b3;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    align-items:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 30%;
+    
+    
+    
+}
+
+.imagendiv {
+    align-items: center;
+    display: grid;
+    width: 130px;
+    margin: 1%;
+    
+    
+}
+
+.LinkT:hover {
+    color: #fff;
+}
+.LinkT {
+    color: black;
+}
+.trofeosdiv p {
+    margin: 10px;
+    text-align: justify;
+    color:black;
+
+}
+
+
+.trofeosdiv1 {
+    
+    border-radius: 10px;
+    border: #ccc solid;
+    font-size: 1.5rem;
+    
+    margin: 10px;
+    background-color: #0056b3;
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+    text-align: justify;
+    align-items:center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 30%;
+    background-image: url(TrofeoPlatino.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 350px;
+    opacity: 2, 3, 1;
+    
+}
